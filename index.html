@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="format-detection" content="telephone=no">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+  <meta name="keywords" content="一起画,绘画,活动,轻奢生活,零基础,丙烯画,艺术,YIQIHUA,17HUA,17hua.me,17hua,17画,SOCIALIZE,上海,一袋信息科技有限公司,sh17hua,EXPERIENCE,DISCOVER">
+  <meta name="description" content="轻奢生活一起画,人人都是艺术家,边吃边喝边画画,零基础绘画就来一起画,想画画就参加一起画,微信关注sh17hua,一起画上海,一袋信息科技,We welcome art enthusiasts and newcomers who have no experience in painting with open arms">
+  <meta name="baidu-site-verification" content="c5g2E8b2Jt" />
+  <meta name="360-site-verification" content="0223655b4addbe593da23ab383f8086d" />
+  <link rel="icon" href="//image.17hua.me/upload/image/201709/201709180100.ico" type="image/x-icon" />
+  <link rel="apple-touch-icon" href="//image.17hua.me/upload/image/201711/1511336941303185.png" />
+  <script src="https://jic.talkingdata.com/app/h5/v1?appid=30340B766B494BBD96FDF50482D3C60D&vn=一起画WEB&vc=1.0.1"></script>
+  <title>一起画(17hua.me)</title>
+  <style>
+    body {
+      -webkit-tap-highlight-color: transparent;
+      margin: 0;
+      font-family: "Microsoft YaHei UI Light", sans-serif;
+      -webkit-appearance: none;
+    }
+
+  </style>
+</head>
+
+<body>
+  <div id="app">
+    <transition enter-active-class="animated fadeIn" leave-active-class="animated fadeOut" mode="out-in">
+      <router-view></router-view>
+    </transition>
+  </div>
+  <div style="height:0;width:0;overflow: hidden;">
+    <div>
+      <p>
+        <img alt="一起画logo" src="//image.17hua.me/upload/image/201709/1506503573240805.png">
+        <img alt="一起画logo" src="//image.17hua.me/upload/image/201709/1506503573240101.png">
+      </p>
+      <div>
+        <div>
+          <h1>一起画首页</h1>
+          <h1>一起画公开活动</h1>
+          <h1>关于一起画</h1>
+          <h1>加入一起画</h1>
+          <h1>一起画媒体</h1>
+        </div>
+      </div>
+    </div>
+    <p>想画画·就参加一起画</p>
+    <div>
+      <h1>绘画·遇见·体验
+        <div>painting·meeting·experience</div>
+      </h1>
+      <div>
+        如果你从来没有接触过油画，那么恭喜，你即将拥有一副这个是界最独一无二的作品
+        <br> 它是无价的，它是最特别的，只属于你的
+        <br> 这就是我们的理念,为发现你而存在
+      </div>
+      <div>
+        <div>
+          <img alt="一起画:火烈鸟_品宣" src="//image.17hua.me/upload/image/201709/1506601704558330.png">
+          <p>PAINTING</p>·
+          <p>MEETING</p>·
+          <p>EXPERIENCE</p>
+        </div>
+        <div>
+          <img alt="一起画:专用杯托_品宣" src="//image.17hua.me/upload/image/201709/1506601704547153.png">
+          <p>MEETS THE</p>
+          <p>MOST</p>
+          <p>BEAUTIFUL</p>
+          <p>SELF</p>
+          <div>只为更懂你_一起画</div>
+        </div>
+        <div>
+          <img alt="一起画:公益_品宣" src="//image.17hua.me/upload/image/201709/1506601704586514.png">
+        </div>
+      </div>
+    </div>
+    <div>
+      <h1>近期绘画活动
+        <p>recent painting activities</p>
+      </h1>
+      <div>
+        <div>
+          <div>
+            <img alt="一起画:活动作品《月光曲》" src="//image.17hua.me/upload/image/201709/1506662665376976.png">
+            <p>《月光曲》</p>
+            <div id="mainSshow_area" class="animate fadeIn" style="display: none;">
+              <img alt="一起画:活动作品《月光曲》_QRcode" src="data:image/png;base64,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">
+              <p>微信扫描二维码即可查看活动哦</p>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div>
+            <img alt="一起画:活动作品《渔舟唱晚》" src="//image.17hua.me/upload/image/201709/1506658503526923.JPG">
+            <p>《渔舟唱晚》</p>
+            <div id="mainSshow_area" class="animate fadeIn" style="display: none;">
+              <img alt="一起画:活动作品《渔舟唱晚》_QRcode" src="data:image/png;base64,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">
+              <p>微信扫描二维码即可查看活动哦</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <img alt="一起画" src="//image.17hua.me/upload/image/201709/1506601704878228.png">
+    <div>
+      <div>
+        <img alt="一起画:画媒体" src="//image.17hua.me/upload/image/201710/1507713436424209.png">
+        <div>
+          <p>没有遇见 怎能体验 | 17hua一起画</p>
+          <p>地址:灵感诞生于：加拿大惠斯勒小镇,越过太平洋,来到东方,2017年6月1日,一起画悄悄的来到你的城市</p>
+        </div>
+        <img alt="一起画:画媒体" src="//image.17hua.me/upload/image/201710/15077162619361045.JPG">
+        <div>
+          <p>17画邀你绘画喜马拉雅 | 国庆节特别活动</p>
+          <p>地址:轰动全城的十一特别活动，来自加拿大的绘画创意公司17画，携手上海证大喜马拉雅中心，邀你来画画</p>
+        </div>
+        <img alt="一起画:画媒体" src="//image.17hua.me/upload/image/201710/1507716826675951.JPG">
+        <div>
+          <p>绘画 美食 | 一场魔都最具特色的社交绘画体验</p>
+          <p>地址:一场魔都最独特的社交体验，一起画携手衡山和集，开启艺术之旅，边吃边喝边画画，人人都是艺术家</p>
+        </div>
+        <img alt="一起画:画媒体" src="//image.17hua.me/upload/image/201710/1507718563920790.JPG">
+        <div>
+          <p>一起画 一起爱 | 和17画一起把爱心献给Ta</p>
+          <p>地址:17画为青岛以琳自闭症学校献爱心，来参加绘画的朋友将画作送给孩子们，希望将绘画所带来的欢乐传递给更多</div>
+      </div>
+    </div>
+  </div>
+  <div style="height:0;width:0;overflow: hidden;">
+    <img alt="一起画:微信二维码，公众号关注" src="//image.17hua.me/upload/image/201709/1506601704774541.jpg">
+    <h2>更多咨询请关注“sh17hua”微信公众号</h2>
+    <p>Copyright © 2017 一袋信息科技 , 沪ICP备17027245号-1</p>
+    <div>
+      <div>
+        After a few months of research and exploration, in June 2017, together with the painting (17) www.17hua.me quietly came to
+        Shanghai. From a person's dream to nine new team, to create a new technology + creativity + painting platform.
+      </div>
+    </div>
+    <div>
+      <div>
+        Along with more than 20 art educators and businesses from Canada and the United States, we have developed a wide range of
+        unique painting courses. The objective is to guide customers create an unique painting of their own in just two hours.
+      </div>
+    </div>
+    <div>
+      <div>
+        Along with more than 20 art educators and businesses from Canada and the United States, we have developed a wide range of
+        unique painting courses. The objective is to guide customers create an unique painting of their own in just two hours.
+      </div>
+    </div>
+    <div>
+      <div>
+        With this business model, 17Hua hopes to reach 200 million people across China. Our objective is to help the Chinese public
+        experience a new artistic lifestyle through one art measure, and allow them to unlock their creativity and their own
+        unique senses of color. Our events are also a place for socialization for you and your friends, family and colleagues;
+        a place in which you can eat, drink and socialize all the while honing a new artistic skill.
+      </div>
+    </div>
+    <p>
+      Have Passion for Art?
+      <br> Looking for New Experience?
+      <br> Planning a Unique Night Out?
+      <br> Welcome.
+    </p>
+  </div>
+  </div>
+  <script>
+    (function () {
+      var bp = document.createElement('script');
+      var curProtocol = window.location.protocol.split(':')[0];
+      if (curProtocol === 'https') {
+        bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+      } else {
+        bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+      }
+      var s = document.getElementsByTagName("script")[0];
+      s.parentNode.insertBefore(bp, s);
+    })();
+
+  </script>
+</body>
+
+</html>
